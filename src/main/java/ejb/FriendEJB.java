@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -24,6 +25,9 @@ public class FriendEJB {
 	
 	@PersistenceContext
 	EntityManager em;
+	
+	@Inject
+	Friend f;
 
     /**
      * Default constructor. 
@@ -45,5 +49,12 @@ public class FriendEJB {
     public String getName(int id) {
     	Friend f = (Friend) getList().get(id);
     	return f.getName();
+    }
+    
+    public void create() {
+    	Friend friend = new Friend();
+    	friend.setName(f.getName());
+    	friend.setAge(f.getAge());
+    	em.persist(friend);
     }
 }

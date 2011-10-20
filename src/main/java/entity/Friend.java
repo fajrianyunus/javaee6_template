@@ -1,6 +1,9 @@
 package entity;
 
 import java.io.Serializable;
+
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
 import javax.persistence.*;
 
 
@@ -9,6 +12,8 @@ import javax.persistence.*;
  * 
  */
 @Entity
+@Named
+@RequestScoped
 public class Friend implements Serializable {
 	private static final long serialVersionUID = 1L;
 
