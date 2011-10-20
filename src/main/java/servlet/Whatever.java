@@ -2,6 +2,7 @@ package servlet;
 
 import java.io.IOException;
 
+import javax.ejb.EJB;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceUnit;
 import javax.servlet.ServletException;
@@ -11,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import ejb.FriendEJB;
 import entity.Friend;
 
 /**
@@ -22,6 +24,9 @@ public class Whatever extends HttpServlet {
     
 	@PersistenceUnit
 	EntityManagerFactory emf;
+	
+	@EJB
+	FriendEJB friendEjb;
 	
     /**
      * @see HttpServlet#HttpServlet()
@@ -38,9 +43,8 @@ public class Whatever extends HttpServlet {
 		ServletOutputStream outputStream = response.getOutputStream();
 		outputStream.print("hello world!");
 		
-		Friend f = (Friend) emf.createEntityManager().createQuery("select f from Friend f").getResultList().get(0);
-	
-		outputStream.print(" "+f.getName());
+		String name = friendEjb.getName(1);
+		outputStream.print(" "+name);
 	}
 
 	/**
