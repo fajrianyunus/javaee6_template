@@ -6,6 +6,10 @@ import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 
 import entity.Friend;
 
@@ -27,7 +31,13 @@ public class FriendEJB {
     }
 
     public List getList() {
-    	return em.createQuery("select f from Friend f").getResultList();
+    	CriteriaBuilder cb = em.getCriteriaBuilder();
+    	CriteriaQuery<Friend> q = cb.createQuery(Friend.class);
+    	Root<Friend> c = q.from(Friend.class);
+    	q.select(c);
+    	TypedQuery<Friend> query = em.createQuery(q);
+    	List<Friend> results = query.getResultList();    	
+    	return results;
     }
     
     public String getName(int id) {

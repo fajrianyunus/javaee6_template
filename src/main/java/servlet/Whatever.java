@@ -43,7 +43,7 @@ public class Whatever extends HttpServlet {
 		ServletOutputStream outputStream = response.getOutputStream();
 		outputStream.print("hello world!");
 		
-		String name = friendEjb.getName(1);
+		String name = friendEjb.getName(0);
 		outputStream.print(" "+name);
 	}
 
