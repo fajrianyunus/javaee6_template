@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="20" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+  <suite name="Command line suite" duration-ms="47" started-at="2011-10-31T00:02:30Z" finished-at="2011-10-31T00:02:30Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="20" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+    <test name="Command line test" duration-ms="47" started-at="2011-10-31T00:02:30Z" finished-at="2011-10-31T00:02:30Z">
       <class name="unit.util.CommonMathTest">
-        <test-method status="PASS" signature="testFactorialFive()" name="testFactorialFive" duration-ms="7" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        <test-method status="PASS" signature="testFactorialFive()" name="testFactorialFive" duration-ms="13" started-at="2011-10-31T00:02:30Z" finished-at="2011-10-31T00:02:30Z">
         </test-method>
-        <test-method status="PASS" signature="testFactorialNegative()" name="testFactorialNegative" duration-ms="0" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        <test-method status="PASS" signature="testFactorialNegative()" name="testFactorialNegative" duration-ms="0" started-at="2011-10-31T00:02:30Z" finished-at="2011-10-31T00:02:30Z">
         </test-method>
-        <test-method status="PASS" signature="testFactorialZero()" name="testFactorialZero" duration-ms="0" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        <test-method status="PASS" signature="testFactorialZero()" name="testFactorialZero" duration-ms="1" started-at="2011-10-31T00:02:30Z" finished-at="2011-10-31T00:02:30Z">
         </test-method>
-        <test-method status="PASS" signature="testTheTruth()" name="testTheTruth" duration-ms="0" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        <test-method status="PASS" signature="testTheTruth()" name="testTheTruth" duration-ms="1" started-at="2011-10-31T00:02:30Z" finished-at="2011-10-31T00:02:30Z">
         </test-method>
       </class>
     </test>

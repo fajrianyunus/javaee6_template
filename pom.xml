@@ -35,7 +35,32 @@
 		<groupId>org.jboss.arquillian.container</groupId>
 		<artifactId>arquillian-glassfish-embedded-3.1</artifactId>
 		<version>${arquillian.version}</version>
-	</dependency>			
+		<scope>test</scope>
+	</dependency>	
+	<dependency>
+	   <groupId>org.jboss.arquillian</groupId>
+	   <artifactId>arquillian-testng</artifactId>
+	   <version>${arquillian.version}</version>
+	   <scope>test</scope>
+	</dependency>	
+	<dependency>
+		<groupId>org.glassfish.extras</groupId>
+		<artifactId>glassfish-embedded-all</artifactId>
+		<version>3.1</version>
+		<scope>test</scope>
+	</dependency>	
+	<dependency> 
+	   <groupId>javax.enterprise</groupId> 
+	   <artifactId>cdi-api</artifactId> 
+	   <version>1.0-SP1</version>  
+	   <scope>test</scope>
+	</dependency>		
+	<dependency>
+	    <groupId>com.google.inject.integration</groupId>
+	    <artifactId>guice-spring</artifactId>
+	    <version>1.0</version>
+	    <scope>test</scope>
+	</dependency>				
   </dependencies>
   
 	<repositories>

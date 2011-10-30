@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="darthsidious" name="unit.util.CommonMathTest" tests="4" failures="0" timestamp="30 Oct 2011 15:55:03 GMT" time="0.02" errors="0">
-  <testcase name="testFactorialFive" time="0.007" classname="unit.util.CommonMathTest"/>
+<testsuite hostname="darthsidious" name="unit.util.CommonMathTest" tests="4" failures="0" timestamp="30 Oct 2011 16:02:30 GMT" time="0.047" errors="0">
+  <testcase name="testFactorialFive" time="0.013" classname="unit.util.CommonMathTest"/>
   <testcase name="testFactorialNegative" time="0.0" classname="unit.util.CommonMathTest"/>
-  <testcase name="testFactorialZero" time="0.0" classname="unit.util.CommonMathTest"/>
-  <testcase name="testTheTruth" time="0.0" classname="unit.util.CommonMathTest"/>
+  <testcase name="testFactorialZero" time="0.001" classname="unit.util.CommonMathTest"/>
+  <testcase name="testTheTruth" time="0.001" classname="unit.util.CommonMathTest"/>
 </testsuite>

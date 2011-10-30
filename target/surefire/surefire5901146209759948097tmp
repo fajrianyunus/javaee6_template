@@ -1,0 +1,5 @@
+#surefire
+#Mon Oct 31 00:02:29 SGT 2011
+user.dir=/home/darth/workspace/my_friends
+localRepository=/home/darth/.m2/repository
+basedir=/home/darth/workspace/my_friends
