@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="darthsidious" name="unit.ejb.FriendEJBTest" tests="1" failures="0" timestamp="30 Oct 2011 15:34:37 GMT" time="0.014" errors="0">
+  <testcase name="testTheTruth" time="0.003" classname="unit.ejb.FriendEJBTest"/>
+</testsuite>

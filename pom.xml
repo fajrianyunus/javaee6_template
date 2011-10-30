@@ -4,6 +4,11 @@
   <artifactId>my_friends</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+	<properties>
+	   <arquillian.version>1.0.0.Alpha5</arquillian.version>
+	</properties>   
+  
   <dependencies>
   	<dependency>
   		<groupId>org.eclipse.persistence</groupId>
@@ -25,7 +30,12 @@
 	  <artifactId>testng</artifactId>
 	  <version>6.1.1</version>
 	  <scope>test</scope>
-	</dependency>		
+	</dependency>	
+	<dependency>
+		<groupId>org.jboss.arquillian.container</groupId>
+		<artifactId>arquillian-glassfish-embedded-3.1</artifactId>
+		<version>${arquillian.version}</version>
+	</dependency>			
   </dependencies>
   
 	<repositories>
@@ -39,6 +49,10 @@
 	     <snapshots>
 	        <enabled>true</enabled>
 	     </snapshots> -->
-	  </repository>    
+	  </repository>  
+	  <repository>
+	  	<id>JBoss Community Repo</id>
+	  	<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+	  </repository> 	    
 	</repositories>   
 </project>

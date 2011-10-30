@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Arquillian" duration-ms="14" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+    <groups>
+    </groups>
+    <test name="Arquillian - class unit.ejb.FriendEJBTest" duration-ms="14" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+      <class name="unit.ejb.FriendEJBTest">
+        <test-method status="PASS" signature="arquillianBeforeSuite()" name="arquillianBeforeSuite" is-config="true" duration-ms="5" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+        </test-method>
+        <test-method status="PASS" signature="arquillianBeforeTest(java.lang.reflect.Method)" name="arquillianBeforeTest" is-config="true" duration-ms="11" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void unit.ejb.FriendEJBTest.testTheTruth()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="arquillianBeforeClass()" name="arquillianBeforeClass" is-config="true" duration-ms="0" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+        </test-method>
+        <test-method status="PASS" signature="testTheTruth()" name="testTheTruth" duration-ms="3" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+        </test-method>
+        <test-method status="PASS" signature="arquillianAfterClass()" name="arquillianAfterClass" is-config="true" duration-ms="0" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+        </test-method>
+        <test-method status="PASS" signature="arquillianAfterTest(java.lang.reflect.Method)" name="arquillianAfterTest" is-config="true" duration-ms="0" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void unit.ejb.FriendEJBTest.testTheTruth()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="arquillianAfterSuite()" name="arquillianAfterSuite" is-config="true" duration-ms="0" started-at="2011-10-30T23:34:37Z" finished-at="2011-10-30T23:34:37Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

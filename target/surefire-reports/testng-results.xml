@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+      <class name="unit.util.CommonMathTest">
+        <test-method status="PASS" signature="testFactorialFive()" name="testFactorialFive" duration-ms="7" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        </test-method>
+        <test-method status="PASS" signature="testFactorialNegative()" name="testFactorialNegative" duration-ms="0" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        </test-method>
+        <test-method status="PASS" signature="testFactorialZero()" name="testFactorialZero" duration-ms="0" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        </test-method>
+        <test-method status="PASS" signature="testTheTruth()" name="testTheTruth" duration-ms="0" started-at="2011-10-30T23:55:03Z" finished-at="2011-10-30T23:55:03Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

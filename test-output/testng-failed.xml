@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Arquillian]">
+  <test name="Arquillian - class unit.ejb.FriendEJBTest(failed)" preserve-order="false">
+    <classes>
+      <class name="unit.ejb.FriendEJBTest">
+        <methods>
+          <include name="arquillianBeforeClass"/>
+          <include name="arquillianBeforeTest"/>
+          <include name="arquillianAfterTest"/>
+          <include name="arquillianAfterClass"/>
+          <include name="arquillianAfterSuite"/>
+          <include name="arquillianBeforeSuite"/>
+          <include name="testGetListNotNull"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
